@@ -48,8 +48,12 @@
                 @include('layouts.footers.guest.with-socials')
             </div>
         @elseif (in_array(request()->route()->getName(), ['home']))
-            @include('layouts.navbars.guest.homepage')
+            @include('layouts.navbars.guest.navbar')
             <livewire:homepage />
+            @include('layouts.footers.guest.with-socials')
+        @elseif (in_array(request()->route()->getName(), ['about']))
+            @include('layouts.navbars.guest.navbar')
+            <livewire:about />
             @include('layouts.footers.guest.with-socials')
         @endif
     @endguest

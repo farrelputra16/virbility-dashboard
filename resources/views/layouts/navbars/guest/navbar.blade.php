@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light w-100">
     <div class="container-fluid">
-        <a class="navbar-brand mx-3" href="#">
+        <a class="navbar-brand mx-3" href="{{ route('home') }}">
             <img src="../assets/img/logo-virbility.png" alt="Logo" width="30" height="30">
             Virtual Reality for Disability
         </a>
@@ -11,10 +11,10 @@
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Beranda</a>
+                    <a class="nav-link" href="{{ route('home') }}">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Tentang Kami</a>
+                    <a class="nav-link" href="{{ route('about') }}">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Bahasa</a>

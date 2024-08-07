@@ -14,6 +14,7 @@ use App\Http\Livewire\StaticSignIn;
 use App\Http\Livewire\StaticSignUp;
 use App\Http\Livewire\Rtl;
 use App\Http\Livewire\Homepage;
+use App\Http\Livewire\About;
 
 use App\Http\Livewire\LaravelExamples\UserProfile;
 use App\Http\Livewire\LaravelExamples\UserManagement;
@@ -39,6 +40,8 @@ Route::get('/home', Homepage::class)->name('home');
 
 Route::get('/sign-up', SignUp::class)->name('sign-up');
 Route::get('/login', Login::class)->name('login');
+
+Route::get('/about', About::class)->name('about');
 
 Route::get('/login/forgot-password', ForgotPassword::class)->name('forgot-password');
 
