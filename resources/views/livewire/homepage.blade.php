@@ -2,7 +2,7 @@
     <!-- Hero Section -->
     <section class="hero text-center">
         <div class="page-header align-items-start section-height-50 pt-5 pb-5 border-radius-lg container-fluid"
-            style="background-image: url('../assets/img/background-image.jpg'); background-position: center top 20%; overflow-x: hidden; position: relative; width: 100%; margin: 0;">
+            style="background-image: url('../assets/img/background-image.jpg'); background-position: center top 20%; overflow-x: hidden; position: relative; width: 100%; margin-bottom: 10px;">
             <span class="mask bg-gradient-dark opacity-6"></span>
             <div class="container" style="overflow-x: hidden;">
                 <div class="row justify-content-center">

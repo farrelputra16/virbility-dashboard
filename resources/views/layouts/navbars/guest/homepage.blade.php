@@ -4,11 +4,12 @@
             <img src="../assets/img/logo-virbility.png" alt="Logo" width="30" height="30">
             Virtual Reality for Disability
         </a>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto flex-grow-1 d-flex align-items-center">
-                <li class="nav-item flex-grow-1">
-                    <input type="text" class="form-control" placeholder="Search">
-                </li>
+        <div class="d-flex flex-grow-1 align-items-center">
+            <div class="flex-grow-1" style="max-width: 300px;">
+                <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Beranda</a>
                 </li>
