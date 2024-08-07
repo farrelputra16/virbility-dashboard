@@ -30,9 +30,10 @@
                         </a>
                     </li>
                 @endif
+            </ul>
+            <ul class="navbar-nav d-lg-flex flex-row d-none">
                 <li class="nav-item">
-                    <a class="nav-link text-dark me-2 text-dark"
-                        href=" {{ auth()->user() ? route('static-sign-up') : route('sign-up') }}">
+                    <a class="nav-link text-dark me-2" href="{{ auth()->user() ? route('static-sign-up') : route('sign-up') }}">
                         <i class="fas fa-user-circle opacity-6 text-dark me-1"></i>
                         Sign Up
                     </a>
@@ -42,12 +43,6 @@
                         <i class="fas fa-key opacity-6 text-dark me-1"></i>
                         Sign In
                     </a>
-                </li>
-            </ul>
-            <ul class="navbar-nav d-lg-block d-none">
-                <li class="nav-item">
-                    <a href="https://www.creative-tim.com/product/soft-ui-dashboard-laravel-livewire"
-                        class="btn btn-sm btn-round mb-0 me-1 bg-gradient-dark" target="_blank">Free download</a>
                 </li>
             </ul>
         </div>

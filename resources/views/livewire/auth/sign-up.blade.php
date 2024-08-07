@@ -5,10 +5,9 @@
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-5 text-center mx-auto">
-                      <h1 class="text-white mb-2 mt-5">{{ __('Welcome!') }}</h1>
+                      <h1 class="text-white mb-2 mt-5">{{ __('Welcome to Virbility!') }}</h1>
                       <p class="text-lead text-white">
-                          {{ __('Use these awesome forms to login or create new account in your
-                          project for free.') }}
+                          {{ __('Platform Edukasi berbasis VR untuk Pelatihan Keterampilan Kerja bagi Penyandang Disabilitas') }}
                       </p>
                   </div>
               </div>
