@@ -38,6 +38,10 @@ Route::get('/', function() {
 
 Route::get('/home', Homepage::class)->name('home');
 
+Route::get('/download', function () {
+    return view('download');
+})->name('download');
+
 Route::get('/posts', Homepage::class)->name('posts');
 
 Route::get('/sign-up', SignUp::class)->name('sign-up');
