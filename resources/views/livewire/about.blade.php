@@ -5,7 +5,8 @@
                 <div class="card-body">
                     <h1 class="text-center">Tentang Kami</h1>
                     <div class="row mt-4">
-                        <div class="col-md-6 text-center">
+                        <div class="col-md-6 text-center"
+                        style="padding-top: 100px; padding-bottom: 50px;">
                             <p>
                                 Platform ini bertujuan untuk meningkatkan keterampilan kerja dan memberdayakan penyandang disabilitas melalui penggunaan teknologi Virtual Reality (VR). Dengan teknologi VR, pengalaman pelatihan yang imersif dan realistis memungkinkan pengguna untuk belajar melalui simulasi praktis yang menyerupai situasi kerja nyata.
                             </p>

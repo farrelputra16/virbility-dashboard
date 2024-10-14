@@ -14,7 +14,7 @@
                             {{ __('Platform ini bertujuan untuk meningkatkan keterampilan kerja dan memberdayakan penyandang disabilitas melalui penggunaan teknologi Virtual Reality (VR). Dengan teknologi VR, pengalaman pelatihan yang imersif dan realistis memungkinkan pengguna untuk belajar melalui simulasi praktis yang menyerupai situasi kerja nyata.') }}
                         </p>
                         <a href="{{ route('login') }}" class="btn btn-primary btn-lg mt-4" style="background-color: #5B99C2">Mulai Sekarang</a>
-                        <a href="#" class="btn btn-secondary btn-lg mt-4">Pelajari Lebih Lanjut</a>
+                        <a href="{{ route('about') }}" class="btn btn-secondary btn-lg mt-4">Pelajari Lebih Lanjut</a>
                     </div>
                 </div>
             </div>
