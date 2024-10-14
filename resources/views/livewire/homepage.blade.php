@@ -28,7 +28,7 @@
                    style="background-color: white; color: #5B99C2; border: 1px solid #5B99C2; margin: 5px; padding: 10px;">
                     <i class="fas fa-cogs"></i> Program Pelatihan
                 </a>
-                <a href="#" class="btn"
+                <a href="{{ route('posts') }}" class="btn"
                    style="background-color: white; color: #5B99C2; border: 1px solid #5B99C2; margin: 5px; padding: 10px;">
                     <i class="fas fa-blog"></i> Blog dan Artikel
                 </a>
