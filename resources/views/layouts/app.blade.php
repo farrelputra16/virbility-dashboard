@@ -55,6 +55,14 @@
             @include('layouts.navbars.guest.navbar')
             <livewire:about />
             @include('layouts.footers.guest.with-socials')
+        @elseif (in_array(request()->route()->getName(), ['download']))
+            @include('layouts.navbars.guest.navbar')
+            <livewire:download />
+            @include('layouts.footers.guest.with-socials')
+        @elseif (in_array(request()->route()->getName(), ['cara-penggunaan']))
+            @include('layouts.navbars.guest.navbar')
+            <livewire:cara-penggunaan />
+            @include('layouts.footers.guest.with-socials')
         @endif
     @endguest
 </x-layouts.base>

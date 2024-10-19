@@ -1,4 +1,4 @@
-<html>
+<div style="overflow-x: hidden;">
  <head>
   <title>VR Product Page</title>
   <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" rel="stylesheet"/>
@@ -102,5 +102,7 @@
     <a href="https://www.roblox.com/share?code=0015d0e61975f942bdffc5f3bce49865&type=ExperienceDetails&stamp=1728706815172" class="btn btn-primary">Start Your Journey</a>
    </div>
   </div>
+  @livewireScripts()
  </body>
-</html>
+ </div>
+

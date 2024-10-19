@@ -13,7 +13,7 @@
                         <p class="text-lead text-white">
                             {{ __('Platform ini bertujuan untuk meningkatkan keterampilan kerja dan memberdayakan penyandang disabilitas melalui penggunaan teknologi Virtual Reality (VR). Dengan teknologi VR, pengalaman pelatihan yang imersif dan realistis memungkinkan pengguna untuk belajar melalui simulasi praktis yang menyerupai situasi kerja nyata.') }}
                         </p>
-                        <a href="{{ route('login') }}" class="btn btn-primary btn-lg mt-4" style="background-color: #5B99C2">Mulai Sekarang</a>
+                        <a href="{{ route('download') }}" class="btn btn-primary btn-lg mt-4" style="background-color: #5B99C2">Mulai Sekarang</a>
                         <a href="{{ route('about') }}" class="btn btn-secondary btn-lg mt-4">Pelajari Lebih Lanjut</a>
                     </div>
                 </div>
@@ -31,14 +31,6 @@
                 <a href="{{ route('posts') }}" class="btn"
                    style="background-color: white; color: #5B99C2; border: 1px solid #5B99C2; margin: 5px; padding: 10px;">
                     <i class="fas fa-blog"></i> Blog dan Artikel
-                </a>
-                <a href="#" class="btn"
-                   style="background-color: white; color: #5B99C2; border: 1px solid #5B99C2; margin: 5px; padding: 10px;">
-                    <i class="fas fa-users"></i> Testimoni Pengguna
-                </a>
-                <a href="#" class="btn"
-                   style="background-color: white; color: #5B99C2; border: 1px solid #5B99C2; margin: 5px; padding: 10px;">
-                    <i class="fas fa-question-circle"></i> FAQ
                 </a>
             </div>
         </div>

@@ -15,6 +15,8 @@ use App\Http\Livewire\StaticSignUp;
 use App\Http\Livewire\Rtl;
 use App\Http\Livewire\Homepage;
 use App\Http\Livewire\About;
+use App\Http\Livewire\Download;
+use App\Http\Livewire\CaraPenggunaan;
 use App\Http\Controllers\PostController;
 use App\Http\Livewire\LaravelExamples\UserProfile;
 use App\Http\Livewire\LaravelExamples\UserManagement;
@@ -38,9 +40,8 @@ Route::get('/', function() {
 
 Route::get('/home', Homepage::class)->name('home');
 
-Route::get('/download', function () {
-    return view('download');
-})->name('download');
+Route::get('/download', Download::class)->name('download');
+Route::get('/cara-penggunaan', CaraPenggunaan::class)->name('cara-penggunaan');
 
 Route::get('/posts', Homepage::class)->name('posts');
 
